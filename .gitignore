@@ -1,0 +1,4 @@
+obj/
+bin/
+Tests/bin
+Tests/obj
