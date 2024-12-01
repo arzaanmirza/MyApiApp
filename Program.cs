@@ -41,7 +41,7 @@ app.MapGet("/suburbs", (SuburbService suburbService) =>
     // 404
     if(response == null || !response.Any())
     {
-        return Results.NotFound("No Property with this id");
+        return Results.NotFound("No Data found for suburbs");
     }
 
     // 200
